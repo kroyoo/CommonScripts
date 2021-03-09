@@ -40,7 +40,7 @@ DAYSUM=`getMonthSum ${MONTH}`
 
 echo "$DAYSUM"
 
-for((i=1;i<=$numDay;i++));
+for((i=1;i<=$DAYSUM;i++));
 do
     #rd=$(( $i % 13 + 3 ))
     #[bed,end]
