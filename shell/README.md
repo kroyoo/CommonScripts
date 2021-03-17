@@ -26,3 +26,5 @@ dos2unix backup.sh
  ```
 
 * gitfiti.sh: 愉快玩耍github。
+
+* gclone-mount.sh: gclone自动挂载服务脚本
