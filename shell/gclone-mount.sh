@@ -49,6 +49,13 @@ setting(){
     #echo "-   需要挂载的云盘名称为： $drivename"
     servicename="gclone-$drivename"
 
+    drivepath=''
+    echo -e "\033[33m输入云盘路径，以“/”开头：\033[0m"
+    while [ ! -n "$drivepath" ]
+    do
+        read -p "> " drivepath
+    done
+
     # 设置挂载点路径
     #echo -e "|   设置挂载点路径"
     path=''
@@ -64,6 +71,7 @@ setting(){
     echo -e "=================================================================="
     echo -e "  请您确认服务配置信息"
     echo -e "> 云盘名称： \033[32m$drivename\033[0m"
+    echo -e "> 云盘路径： \033[32m$drivepath\033[0m"
     echo -e "> 挂载路径： \033[32m$path\033[0m"
     echo -e "=================================================================="
     echo -e ""
@@ -121,7 +129,7 @@ KillMode=none
 Restart=on-failure
 RestartSec=5
 User=root
-ExecStart = /usr/bin/gclone mount $drivename: "$path" \
+ExecStart = /usr/bin/gclone mount $drivename:$drivepath "$path" \
 --umask 000 \
 --allow-other \
 --allow-non-empty \
