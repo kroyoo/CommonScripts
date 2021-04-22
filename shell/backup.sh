@@ -133,7 +133,7 @@ check_commands() {
 
     # check rclone command
     RCLONE_COMMAND=false
-    if [ "$(command -v "fclone")" ]; then
+    if [ "$(command -v "rclone")" ]; then
         RCLONE_COMMAND=true
     fi
 
