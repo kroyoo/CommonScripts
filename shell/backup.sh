@@ -55,7 +55,7 @@ MYSQL_DATABASE_NAME[0]=""
 # File: /data/www/default/test.tgz
 # Directory: /data/www/default/test
 BACKUP[0]="/www/wwwroot"
-#BACKUP[1]="/www/wwwroot/springboot.ga"
+#BACKUP[1]="/www/wwwroot/example.com"
 # Number of days to store daily local backups (default 7 days)
 LOCALAGEDAILIES="7"
 
