@@ -14,6 +14,7 @@ dos2unix backup.sh
 
 * backup.sh: 来自[秋水逸冰](https://teddysun.com/469.html)的脚本，修改添加同步多个rclone，删除rclone创建目录。
  ```
+ URL: https://git.io/backup.sh
  #加密解密命令
  openssl enc -aes256 -in [DECRYPTED BACKUP] -out "ENCRYPTED.enc" -pass pass:[BACKUPPASS] -md sha1
  openssl enc -aes256 -in [ENCRYPTED BACKUP] -out decrypted_backup.tgz -pass pass:[BACKUPPASS] -d -md sha1
