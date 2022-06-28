@@ -6,7 +6,7 @@ function gclone_install()
 {
     gclone --version
     if [ $? -eq  0 ]; then
-        echo -e "\033[32m检查到Gclone已安装!\033[0m"
+        echo -e "\033[32m检查到Gclone已安装！\033[0m"
     else
         echo -e "\n|  Gclone is installing ... "
         bash <(wget -qO- https://git.io/gclone.sh)
