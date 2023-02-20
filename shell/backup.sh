@@ -210,7 +210,7 @@ start_backup() {
     # Encrypt tar file
     if ${ENCRYPTFLG}; then
         log "Encrypt backup file start"
-        openssl enc -aes256 -in "${TARFILE}" -out "${ENC_TARFILE}" -pass pass:"${BACKUPPASS}" -md sha1
+        openssl enc -aes256 -in "${TARFILE}" -out "${ENC_TARFILE}" -pass pass:"${BACKUPPASS}" -md sha1 -pbkdf2
         log "Encrypt backup file completed"
 
         # Delete unencrypted tar
