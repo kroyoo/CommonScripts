@@ -3,7 +3,7 @@ import requests
 import json
 
 
-class HuaweiCloudApi:
+class HuaweiCloudDnsApi:
 
     def __init__(self, description='China', token=None, domain=None, subdomain=None, record_type='A'):
         self.dns_api = "https://dns.ap-southeast-1.myhuaweicloud.com"
@@ -62,7 +62,6 @@ class HuaweiCloudApi:
         response = requests.post(url, headers=headers, json=data)
         if response.status_code == 201:
             self.token = response.headers.get('X-Subject-Token')
-            print("Token:", self.token)
         else:
             print("Request failed with status code:", response.status_code)
             print("Response:", response.text)
@@ -138,8 +137,6 @@ class HuaweiCloudApi:
                 "ttl": 1
             }
         try:
-            print(json.dumps(data))
-            print(url)
             respone = requests.request(method, url,
                                        headers={
                                            "Content-Type": "application/json;charset=utf8",
@@ -170,7 +167,7 @@ if __name__ == "__main__":
     IAMPassword = 'IAM user password.'
     token = None
     dns_api = "https://dns.ap-southeast-1.myhuaweicloud.com"
-    client = HuaweiCloudApi('Abroad', token, 'domain.com', "cdn")
+    client = HuaweiCloudDnsApi('Abroad', token, 'domain.com', "cdn")
     client.get_recordset()
     client.read_ips_file('/codex/ips.txt')
     client.check_record()
