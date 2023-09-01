@@ -1,0 +1,3203 @@
+{
+	"DEFAULT": {
+		"id": "default_view",
+		"en": "Default",
+		"zh": "全网默认",
+		"es": "Padrão",
+		"pt": "Predeterminado"
+	},
+	"REGION": [
+		{
+			"id": "CN",
+			"en": "Chinese Mainland",
+			"zh": "中国大陆",
+			"es": "China continental",
+			"pt": "China Continental",
+			"children": [
+				{
+					"id": "Huabei",
+					"en": "North China",
+					"zh": "华北地区",
+					"es": "China del Norte",
+					"pt": "China Setentrional",
+					"children": [
+						{
+							"id": "Beijing",
+							"en": "Beijing",
+							"zh": "北京",
+							"es": "Beijing",
+							"pt": "Beijing"
+						},
+						{
+							"id": "Tianjin",
+							"en": "Tianjin",
+							"zh": "天津",
+							"es": "Tianjin",
+							"pt": "Tianjin"
+						},
+						{
+							"id": "Hebei",
+							"en": "Hebei",
+							"zh": "河北",
+							"es": "Hebei",
+							"pt": "Hebei"
+						},
+						{
+							"id": "Shanxi",
+							"en": "Shanxi",
+							"zh": "山西",
+							"es": "Shanxi",
+							"pt": "Shanxi"
+						},
+						{
+							"id": "Neimenggu",
+							"en": "Inner Mongolia",
+							"zh": "内蒙古",
+							"es": "Inner Mongolia",
+							"pt": "Inner Mongolia"
+						}
+					]
+				},
+				{
+					"id": "Dongbei",
+					"en": "Northeast China",
+					"zh": "东北地区",
+					"es": "China del Noreste",
+					"pt": "Nordeste da China",
+					"children": [
+						{
+							"id": "Liaoning",
+							"en": "Liaoning",
+							"zh": "辽宁",
+							"es": "Liaoning",
+							"pt": "Liaoning"
+						},
+						{
+							"id": "Jilin",
+							"en": "Jilin",
+							"zh": "吉林",
+							"es": "Jilin",
+							"pt": "Jilin"
+						},
+						{
+							"id": "Heilongjiang",
+							"en": "Heilongjiang",
+							"zh": "黑龙江",
+							"es": "Heilongjiang",
+							"pt": "Heilongjiang"
+						}
+					]
+				},
+				{
+					"id": "Xibei",
+					"en": "Northwest China",
+					"zh": "西北地区",
+					"es": "China del Noroeste",
+					"pt": "Noroeste da China",
+					"children": [
+						{
+							"id": "Shaanxi",
+							"en": "Shaanxi",
+							"zh": "陕西",
+							"es": "Shaanxi",
+							"pt": "Shaanxi"
+						},
+						{
+							"id": "Gansu",
+							"en": "Gansu",
+							"zh": "甘肃",
+							"es": "Gansu",
+							"pt": "Gansu"
+						},
+						{
+							"id": "Qinghai",
+							"en": "Qinghai",
+							"zh": "青海",
+							"es": "Qinghai",
+							"pt": "Qinghai"
+						},
+						{
+							"id": "Ningxia",
+							"en": "Ningxia",
+							"zh": "宁夏",
+							"es": "Ningxia",
+							"pt": "Ningxia"
+						},
+						{
+							"id": "Xinjiang",
+							"en": "Xinjiang",
+							"zh": "新疆",
+							"es": "Xinjiang",
+							"pt": "Xinjiang"
+						}
+					]
+				},
+				{
+					"id": "Huazhong",
+					"en": "Central China",
+					"zh": "华中地区",
+					"es": "China central",
+					"pt": "China Central",
+					"children": [
+						{
+							"id": "Henan",
+							"en": "Henan",
+							"zh": "河南",
+							"es": "Henan",
+							"pt": "Henan"
+						},
+						{
+							"id": "Hubei",
+							"en": "Hubei",
+							"zh": "湖北",
+							"es": "Hubei",
+							"pt": "Hubei"
+						},
+						{
+							"id": "Hunan",
+							"en": "Hunan",
+							"zh": "湖南",
+							"es": "Hunan",
+							"pt": "Hunan"
+						}
+					]
+				},
+				{
+					"id": "Huadong",
+					"en": "East China",
+					"zh": "华东地区",
+					"es": "China del Este",
+					"pt": "Leste da China",
+					"children": [
+						{
+							"id": "Shanghai",
+							"en": "Shanghai",
+							"zh": "上海",
+							"es": "Shanghai",
+							"pt": "Shanghai"
+						},
+						{
+							"id": "Jiangsu",
+							"en": "Jiangsu",
+							"zh": "江苏",
+							"es": "Jiangsu",
+							"pt": "Jiangsu"
+						},
+						{
+							"id": "Zhejiang",
+							"en": "Zhejiang",
+							"zh": "浙江",
+							"es": "Zhejiang",
+							"pt": "Zhejiang"
+						},
+						{
+							"id": "Anhui",
+							"en": "Anhui",
+							"zh": "安徽",
+							"es": "Anhui",
+							"pt": "Anhui"
+						},
+						{
+							"id": "Fujian",
+							"en": "Fujian",
+							"zh": "福建",
+							"es": "Fujian",
+							"pt": "Fujian"
+						},
+						{
+							"id": "Jiangxi",
+							"en": "Jiangxi",
+							"zh": "江西",
+							"es": "Jiangxi",
+							"pt": "Jiangxi"
+						},
+						{
+							"id": "Shandong",
+							"en": "Shandong",
+							"zh": "山东",
+							"es": "Shandong",
+							"pt": "Shandong"
+						}
+					]
+				},
+				{
+					"id": "Huanan",
+					"en": "South China",
+					"zh": "华南地区",
+					"es": "China del Sur",
+					"pt": "China Meridional",
+					"children": [
+						{
+							"id": "Guangdong",
+							"en": "Guangdong",
+							"zh": "广东",
+							"es": "Guangdong",
+							"pt": "Guangdong"
+						},
+						{
+							"id": "Hainan",
+							"en": "Hainan",
+							"zh": "海南",
+							"es": "Hainan",
+							"pt": "Hainan"
+						},
+						{
+							"id": "Guangxi",
+							"en": "Guangxi",
+							"zh": "广西",
+							"es": "Guangxi",
+							"pt": "Guangxi"
+						}
+					]
+				},
+				{
+					"id": "Xinan",
+					"en": "Southwest China",
+					"zh": "西南地区",
+					"es": "China del Suroeste",
+					"pt": "Sudoeste da China",
+					"children": [
+						{
+							"id": "Chongqing",
+							"en": "Chongqing",
+							"zh": "重庆",
+							"es": "Chongqing",
+							"pt": "Chongqing"
+						},
+						{
+							"id": "Sichuan",
+							"en": "Sichuan",
+							"zh": "四川",
+							"es": "Sichuan",
+							"pt": "Sichuan"
+						},
+						{
+							"id": "Guizhou",
+							"en": "Guizhou",
+							"zh": "贵州",
+							"es": "Guizhou",
+							"pt": "Guizhou"
+						},
+						{
+							"id": "Yunnan",
+							"en": "Yunnan",
+							"zh": "云南",
+							"es": "Yunnan",
+							"pt": "Yunnan"
+						},
+						{
+							"id": "Xizang",
+							"en": "Tibet",
+							"zh": "西藏",
+							"es": "Tibet",
+							"pt": "Tibet"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "Abroad",
+			"en": "Global",
+			"zh": "全球",
+			"es": "Global",
+			"pt": "Global",
+			"children": [
+				{
+					"id": "AP",
+					"en": "Asia-Pacific",
+					"zh": "亚太地区",
+					"es": "Asia Pacífico",
+					"pt": "Ásia-Pacífico",
+					"children": [
+						{
+							"id": "TW",
+							"en": "Taiwan (China)",
+							"zh": "中国台湾",
+							"es": "Taiwán (China)",
+							"pt": "Taiwan (China)"
+						},
+						{
+							"id": "HK",
+							"en": "Hong Kong (China)",
+							"zh": "中国香港",
+							"es": "Hong Kong (China)",
+							"pt": "Hong Kong (China)"
+						},
+						{
+							"id": "MO",
+							"en": "Macao (China)",
+							"zh": "中国澳门",
+							"es": "Macao (China)",
+							"pt": "Macao (China)"
+						},
+						{
+							"id": "JP",
+							"en": "Japan",
+							"zh": "日本",
+							"es": "Japón",
+							"pt": "Japão"
+						},
+						{
+							"id": "KR",
+							"en": "South Korea",
+							"zh": "韩国",
+							"es": "Corea del Sur",
+							"pt": "Coreia do Sul"
+						},
+						{
+							"id": "IN",
+							"en": "India",
+							"zh": "印度",
+							"es": "India",
+							"pt": "Índia"
+						},
+						{
+							"id": "TR",
+							"en": "Turkey",
+							"zh": "土耳其",
+							"es": "Turquía",
+							"pt": "Turquia"
+						},
+						{
+							"id": "ID",
+							"en": "Indonesia",
+							"zh": "印度尼西亚",
+							"es": "Indonesia",
+							"pt": "Indonésia"
+						},
+						{
+							"id": "VN",
+							"en": "Vietnam",
+							"zh": "越南",
+							"es": "Vietnam",
+							"pt": "Vietnã"
+						},
+						{
+							"id": "SG",
+							"en": "Singapore",
+							"zh": "新加坡",
+							"es": "Singapur",
+							"pt": "Singapura"
+						},
+						{
+							"id": "TH",
+							"en": "Thailand",
+							"zh": "泰国",
+							"es": "Tailandia",
+							"pt": "Tailândia"
+						},
+						{
+							"id": "MY",
+							"en": "Malaysia",
+							"zh": "马来西亚",
+							"es": "Malasia",
+							"pt": "Malásia"
+						},
+						{
+							"id": "BD",
+							"en": "Bangladesh",
+							"zh": "孟加拉",
+							"es": "Bangladés",
+							"pt": "Bangladesh"
+						},
+						{
+							"id": "AE",
+							"en": "United Arab Emirates",
+							"zh": "阿联酋",
+							"es": "Emiratos Árabes Unidos",
+							"pt": "Emirados Árabes Unidos"
+						},
+						{
+							"id": "AM",
+							"en": "Armenia",
+							"zh": "亚美尼亚",
+							"es": "Armenia",
+							"pt": "Armênia"
+						},
+						{
+							"id": "AZ",
+							"en": "Azerbaijan",
+							"zh": "阿塞拜疆",
+							"es": "Azerbaiyán",
+							"pt": "Azerbaijão"
+						},
+						{
+							"id": "BH",
+							"en": "Bahrain",
+							"zh": "巴林",
+							"es": "Bahréin",
+							"pt": "Barein"
+						},
+						{
+							"id": "BN",
+							"en": "Brunei",
+							"zh": "文莱",
+							"es": "Brunéi",
+							"pt": "Brunei"
+						},
+						{
+							"id": "BT",
+							"en": "Bhutan",
+							"zh": "不丹",
+							"es": "Bután",
+							"pt": "Butão"
+						},
+						{
+							"id": "CX",
+							"en": "Christmas Island",
+							"zh": "圣诞岛",
+							"es": "Isla de Navidad",
+							"pt": "Ilha Christmas"
+						},
+						{
+							"id": "GE",
+							"en": "Georgia",
+							"zh": "格鲁吉亚",
+							"es": "Georgia",
+							"pt": "Geórgia"
+						},
+						{
+							"id": "IQ",
+							"en": "Iraq",
+							"zh": "伊拉克",
+							"es": "Irak",
+							"pt": "Iraque"
+						},
+						{
+							"id": "JO",
+							"en": "Jordan",
+							"zh": "约旦",
+							"es": "Jordania",
+							"pt": "Jordânia"
+						},
+						{
+							"id": "KG",
+							"en": "Kyrgyzstan",
+							"zh": "吉尔吉斯斯坦",
+							"es": "Kirguistán",
+							"pt": "Quirguistão"
+						},
+						{
+							"id": "KH",
+							"en": "Cambodia",
+							"zh": "柬埔寨",
+							"es": "Camboya",
+							"pt": "Camboja"
+						},
+						{
+							"id": "KW",
+							"en": "Kuwait",
+							"zh": "科威特",
+							"es": "Kuwait",
+							"pt": "Kuwait"
+						},
+						{
+							"id": "KZ",
+							"en": "Kazakhstan",
+							"zh": "哈萨克斯坦",
+							"es": "Kazajistán",
+							"pt": "Cazaquistão"
+						},
+						{
+							"id": "LB",
+							"en": "Lebanon",
+							"zh": "黎巴嫩",
+							"es": "Líbano",
+							"pt": "Líbano"
+						},
+						{
+							"id": "LK",
+							"en": "Sri Lanka",
+							"zh": "斯里兰卡",
+							"es": "Sri Lanka",
+							"pt": "Sri Lanka"
+						},
+						{
+							"id": "MM",
+							"en": "Myanmar",
+							"zh": "缅甸",
+							"es": "Birmania",
+							"pt": "Mianmar"
+						},
+						{
+							"id": "MN",
+							"en": "Mongolia",
+							"zh": "蒙古",
+							"es": "Mongolia",
+							"pt": "Mongólia"
+						},
+						{
+							"id": "MV",
+							"en": "Maldives",
+							"zh": "马尔代夫",
+							"es": "Maldivas",
+							"pt": "Maldivas"
+						},
+						{
+							"id": "NP",
+							"en": "Nepal",
+							"zh": "尼泊尔",
+							"es": "Nepal",
+							"pt": "Nepal"
+						},
+						{
+							"id": "OM",
+							"en": "Oman",
+							"zh": "阿曼",
+							"es": "Omán",
+							"pt": "Omã"
+						},
+						{
+							"id": "PH",
+							"en": "Philippines",
+							"zh": "菲律宾",
+							"es": "Filipinas",
+							"pt": "Filipinas"
+						},
+						{
+							"id": "PK",
+							"en": "Pakistan",
+							"zh": "巴基斯坦",
+							"es": "Pakistán",
+							"pt": "Paquistão"
+						},
+						{
+							"id": "PS",
+							"en": "Palestine",
+							"zh": "巴勒斯坦",
+							"es": "Palestina",
+							"pt": "Palestina"
+						},
+						{
+							"id": "QA",
+							"en": "Qatar",
+							"zh": "卡塔尔",
+							"es": "Qatar",
+							"pt": "Qatar"
+						},
+						{
+							"id": "SA",
+							"en": "Saudi Arabia",
+							"zh": "沙特阿拉伯",
+							"es": "Arabia Saudita",
+							"pt": "Arábia Saudita"
+						},
+						{
+							"id": "TJ",
+							"en": "Tajikistan",
+							"zh": "塔吉克斯坦",
+							"es": "Tayikistán",
+							"pt": "Tajiquistão"
+						},
+						{
+							"id": "TL",
+							"en": "East Timor",
+							"zh": "东帝汶",
+							"es": "Timor Oriental",
+							"pt": "Timor Leste"
+						},
+						{
+							"id": "TM",
+							"en": "Turkmenistan",
+							"zh": "土库曼斯坦",
+							"es": "Turkmenistán",
+							"pt": "Turcomenistão"
+						},
+						{
+							"id": "UZ",
+							"en": "Uzbekistan",
+							"zh": "乌兹别克斯坦",
+							"es": "Uzbekistán",
+							"pt": "Uzbequistão"
+						},
+						{
+							"id": "YE",
+							"en": "Yemen",
+							"zh": "也门",
+							"es": "Yemen",
+							"pt": "Iêmen"
+						},
+						{
+							"id": "CY",
+							"en": "Cyprus",
+							"zh": "塞浦路斯",
+							"es": "Chipre",
+							"pt": "Chipre"
+						},
+						{
+							"id": "IL",
+							"en": "Israel",
+							"zh": "以色列",
+							"es": "Israel",
+							"pt": "Israel"
+						},
+						{
+							"id": "AS",
+							"en": "American Samoa",
+							"zh": "美属萨摩亚",
+							"es": "Samoa Americana",
+							"pt": "Samoa Americana"
+						},
+						{
+							"id": "CK",
+							"en": "Cook Islands",
+							"zh": "库克群岛",
+							"es": "Islas Cook",
+							"pt": "Ilhas Cook"
+						},
+						{
+							"id": "FM",
+							"en": "Micronesia",
+							"zh": "密克罗尼西亚",
+							"es": "Micronesia",
+							"pt": "Micronésia"
+						},
+						{
+							"id": "GU",
+							"en": "Guam",
+							"zh": "关岛",
+							"es": "Guam",
+							"pt": "Guam"
+						},
+						{
+							"id": "KI",
+							"en": "Kiribati",
+							"zh": "基里巴斯",
+							"es": "Kiribati",
+							"pt": "Kiribati"
+						},
+						{
+							"id": "MH",
+							"en": "Marshall Islands",
+							"zh": "马绍尔群岛",
+							"es": "Islas Marshall",
+							"pt": "Ilhas Marshall"
+						},
+						{
+							"id": "MP",
+							"en": "Northern Mariana Islands",
+							"zh": "北马里亚纳群岛",
+							"es": "Islas Marianas del Norte",
+							"pt": "Ilhas Marianas do Norte"
+						},
+						{
+							"id": "NC",
+							"en": "New Caledonia",
+							"zh": "新喀里多尼亚",
+							"es": "Nueva Caledonia",
+							"pt": "Nova Caledônia"
+						},
+						{
+							"id": "NF",
+							"en": "Norfolk Island",
+							"zh": "诺福克岛",
+							"es": "Isla Norfolk",
+							"pt": "Ilha Norfolk"
+						},
+						{
+							"id": "NR",
+							"en": "Nauru",
+							"zh": "瑙鲁",
+							"es": "Nauru",
+							"pt": "Nauru"
+						},
+						{
+							"id": "PF",
+							"en": "French Polynesia",
+							"zh": "法属波利尼西亚",
+							"es": "Polinesia Francesa",
+							"pt": "Polinésia Francesa"
+						},
+						{
+							"id": "PG",
+							"en": "Papua New Guinea",
+							"zh": "巴布亚新几内亚",
+							"es": "Papúa Nueva Guinea",
+							"pt": "Papua Nova Guiné"
+						},
+						{
+							"id": "PW",
+							"en": "Palau",
+							"zh": "帕劳",
+							"es": "Palaos",
+							"pt": "Palau"
+						},
+						{
+							"id": "SB",
+							"en": "Solomon Islands",
+							"zh": "所罗门群岛",
+							"es": "Islas Salomón",
+							"pt": "Ilhas Salomão"
+						},
+						{
+							"id": "TK",
+							"en": "Tokelau",
+							"zh": "托克劳群岛",
+							"es": "Tokelau",
+							"pt": "Tokelau"
+						},
+						{
+							"id": "TO",
+							"en": "Tonga",
+							"zh": "汤加",
+							"es": "Tonga",
+							"pt": "Tonga"
+						},
+						{
+							"id": "TV",
+							"en": "Tuvalu",
+							"zh": "图瓦卢",
+							"es": "Tuvalu",
+							"pt": "Tuvalu"
+						},
+						{
+							"id": "VU",
+							"en": "Vanuatu",
+							"zh": "瓦努阿图",
+							"es": "Vanuatu",
+							"pt": "Vanuatu"
+						},
+						{
+							"id": "WS",
+							"en": "Samoa",
+							"zh": "萨摩亚",
+							"es": "Samoa",
+							"pt": "Samoa"
+						},
+						{
+							"id": "AFG",
+							"en": "Afghanistan",
+							"zh": "阿富汗",
+							"es": "Afganistán",
+							"pt": "Afeganistão"
+						},
+						{
+							"id": "LAO",
+							"en": "Laos",
+							"zh": "老挝",
+							"es": "Laos",
+							"pt": "Laos"
+						},
+						{
+							"id": "IR",
+							"en": "Iran",
+							"zh": "伊朗",
+							"es": "Iran",
+							"pt": "Iran"
+						},
+						{
+							"id": "SY",
+							"en": "Syria",
+							"zh": "叙利亚",
+							"es": "Syria",
+							"pt": "Syria"
+						}
+					]
+				},
+				{
+					"id": "OA",
+					"en": "Oceania",
+					"zh": "大洋洲",
+					"es": "Oceanía",
+					"pt": "Oceania",
+					"children": [
+						{
+							"id": "AU",
+							"en": "Australia",
+							"zh": "澳大利亚",
+							"es": "Australia",
+							"pt": "Austrália"
+						},
+						{
+							"id": "NZ",
+							"en": "New Zealand",
+							"zh": "新西兰",
+							"es": "Nueva Zelanda",
+							"pt": "Nova Zelândia"
+						},
+						{
+							"id": "WF",
+							"en": "Wallis and Futuna",
+							"zh": "瓦利斯和富图纳",
+							"es": "Wallis and Futuna",
+							"pt": "Wallis and Futuna"
+						},
+						{
+							"id": "FJ",
+							"en": "Fiji",
+							"zh": "斐济群岛",
+							"es": "Fiji",
+							"pt": "Fiji"
+						},
+						{
+							"id": "NU",
+							"en": "Niue",
+							"zh": "纽埃",
+							"es": "Niue",
+							"pt": "Niue"
+						}
+					]
+				},
+				{
+					"id": "EU",
+					"en": "Europe",
+					"zh": "欧洲",
+					"es": "Europa",
+					"pt": "Europa",
+					"children": [
+						{
+							"id": "GB",
+							"en": "United Kingdom",
+							"zh": "英国",
+							"es": "Reino Unido",
+							"pt": "Reino Unido"
+						},
+						{
+							"id": "DE",
+							"en": "Germany",
+							"zh": "德国",
+							"es": "Alemania",
+							"pt": "Alemanha"
+						},
+						{
+							"id": "FR",
+							"en": "France",
+							"zh": "法国",
+							"es": "Francia",
+							"pt": "França"
+						},
+						{
+							"id": "IT",
+							"en": "Italy",
+							"zh": "意大利",
+							"es": "Italia",
+							"pt": "Itália"
+						},
+						{
+							"id": "RU",
+							"en": "Russia",
+							"zh": "俄罗斯",
+							"es": "Rusia",
+							"pt": "Rússia"
+						},
+						{
+							"id": "ES",
+							"en": "Spain",
+							"zh": "西班牙",
+							"es": "España",
+							"pt": "Espanha"
+						},
+						{
+							"id": "UA",
+							"en": "Ukraine",
+							"zh": "乌克兰",
+							"es": "Ucrania",
+							"pt": "Ucrânia"
+						},
+						{
+							"id": "NL",
+							"en": "Netherlands",
+							"zh": "荷兰",
+							"es": "Países Bajos",
+							"pt": "Holanda"
+						},
+						{
+							"id": "SE",
+							"en": "Sweden",
+							"zh": "瑞典",
+							"es": "Suecia",
+							"pt": "Suécia"
+						},
+						{
+							"id": "PL",
+							"en": "Poland",
+							"zh": "波兰",
+							"es": "Polonia",
+							"pt": "Polônia"
+						},
+						{
+							"id": "IO",
+							"en": "British Indian Ocean Territory",
+							"zh": "英属印度洋领地",
+							"es": "Territorio Británico del Océano Índico",
+							"pt": "Território Britânico do Oceano Índico"
+						},
+						{
+							"id": "BY",
+							"en": "Belarus",
+							"zh": "白俄罗斯",
+							"es": "Bielorrusia",
+							"pt": "Bielorrúsia"
+						},
+						{
+							"id": "AD",
+							"en": "Andorra",
+							"zh": "安道尔",
+							"es": "Andorra",
+							"pt": "Andorra"
+						},
+						{
+							"id": "AL",
+							"en": "Albania",
+							"zh": "阿尔巴尼亚",
+							"es": "Albania",
+							"pt": "Albânia"
+						},
+						{
+							"id": "AT",
+							"en": "Austria",
+							"zh": "奥地利",
+							"es": "Austria",
+							"pt": "Áustria"
+						},
+						{
+							"id": "AX",
+							"en": "Aland Islands",
+							"zh": "奥兰群岛",
+							"es": "Islas Åland",
+							"pt": "Ilhas de Aland"
+						},
+						{
+							"id": "BE",
+							"en": "Belgium",
+							"zh": "比利时",
+							"es": "Bélgica",
+							"pt": "Bélgica"
+						},
+						{
+							"id": "BG",
+							"en": "Bulgaria",
+							"zh": "保加利亚",
+							"es": "Bulgaria",
+							"pt": "Bulgária"
+						},
+						{
+							"id": "CH",
+							"en": "Switzerland",
+							"zh": "瑞士",
+							"es": "Suiza",
+							"pt": "Suíça"
+						},
+						{
+							"id": "CZ",
+							"en": "Czech",
+							"zh": "捷克",
+							"es": "República Checa",
+							"pt": "República Tcheca"
+						},
+						{
+							"id": "DK",
+							"en": "Denmark",
+							"zh": "丹麦",
+							"es": "Dinamarca",
+							"pt": "Dinamarca"
+						},
+						{
+							"id": "EE",
+							"en": "Estonia",
+							"zh": "爱沙尼亚",
+							"es": "Estonia",
+							"pt": "Estônia"
+						},
+						{
+							"id": "FI",
+							"en": "Finland",
+							"zh": "芬兰",
+							"es": "Finlandia",
+							"pt": "Finlândia"
+						},
+						{
+							"id": "FO",
+							"en": "Faroe Island",
+							"zh": "法罗群岛",
+							"es": "Islas Feroe",
+							"pt": "Ilha Faroe"
+						},
+						{
+							"id": "GG",
+							"en": "Guernsey",
+							"zh": "根西岛",
+							"es": "Guernsey",
+							"pt": "Guernsey"
+						},
+						{
+							"id": "GI",
+							"en": "Gibraltar",
+							"zh": "直布罗陀",
+							"es": "Gibraltar",
+							"pt": "Gibraltar"
+						},
+						{
+							"id": "GR",
+							"en": "Greece",
+							"zh": "希腊",
+							"es": "Grecia",
+							"pt": "Grécia"
+						},
+						{
+							"id": "HR",
+							"en": "Croatia",
+							"zh": "克罗地亚",
+							"es": "Croacia",
+							"pt": "Croácia"
+						},
+						{
+							"id": "HU",
+							"en": "Hungary",
+							"zh": "匈牙利",
+							"es": "Hungría",
+							"pt": "Hungria"
+						},
+						{
+							"id": "IE",
+							"en": "Ireland",
+							"zh": "爱尔兰",
+							"es": "Irlanda",
+							"pt": "Irlanda"
+						},
+						{
+							"id": "IM",
+							"en": "Isle of Man",
+							"zh": "马恩岛",
+							"es": "Isla de Man",
+							"pt": "Ilha de Man"
+						},
+						{
+							"id": "IS",
+							"en": "Iceland",
+							"zh": "冰岛",
+							"es": "Islandia",
+							"pt": "Islândia"
+						},
+						{
+							"id": "JE",
+							"en": "Jersey",
+							"zh": "泽西岛",
+							"es": "Jersey",
+							"pt": "Jérsei"
+						},
+						{
+							"id": "LI",
+							"en": "Liechtenstein",
+							"zh": "列支敦士登",
+							"es": "Liechtenstein",
+							"pt": "Liechtenstein"
+						},
+						{
+							"id": "LT",
+							"en": "Lithuania",
+							"zh": "立陶宛",
+							"es": "Lituania",
+							"pt": "Lituânia"
+						},
+						{
+							"id": "LU",
+							"en": "Luxembourg",
+							"zh": "卢森堡",
+							"es": "Luxemburgo",
+							"pt": "Luxemburgo"
+						},
+						{
+							"id": "LV",
+							"en": "Latvia",
+							"zh": "拉脱维亚",
+							"es": "Letonia",
+							"pt": "Letônia"
+						},
+						{
+							"id": "MC",
+							"en": "Monaco",
+							"zh": "摩纳哥",
+							"es": "Mónaco",
+							"pt": "Mônaco"
+						},
+						{
+							"id": "MD",
+							"en": "Moldova",
+							"zh": "摩尔多瓦",
+							"es": "Moldavia",
+							"pt": "Moldávia"
+						},
+						{
+							"id": "ME",
+							"en": "Montenegro",
+							"zh": "黑山",
+							"es": "Montenegro",
+							"pt": "Montenegro"
+						},
+						{
+							"id": "MK",
+							"en": "North Macedonia",
+							"zh": "北马其顿",
+							"es": "North Macedonia",
+							"pt": "Macedônia"
+						},
+						{
+							"id": "MT",
+							"en": "Malta",
+							"zh": "马耳他",
+							"es": "Malta",
+							"pt": "Malta"
+						},
+						{
+							"id": "NO",
+							"en": "Norway",
+							"zh": "挪威",
+							"es": "Noruega",
+							"pt": "Noruega"
+						},
+						{
+							"id": "PT",
+							"en": "Portugal",
+							"zh": "葡萄牙",
+							"es": "Portugal",
+							"pt": "Portugal"
+						},
+						{
+							"id": "RO",
+							"en": "Romania",
+							"zh": "罗马尼亚",
+							"es": "Rumania",
+							"pt": "Romênia"
+						},
+						{
+							"id": "RS",
+							"en": "Serbia",
+							"zh": "塞尔维亚",
+							"es": "Serbia",
+							"pt": "Sérvia"
+						},
+						{
+							"id": "SI",
+							"en": "Slovenia",
+							"zh": "斯洛文尼亚",
+							"es": "Eslovenia",
+							"pt": "Eslovênia"
+						},
+						{
+							"id": "SK",
+							"en": "Slovakia",
+							"zh": "斯洛伐克",
+							"es": "Eslovaquia",
+							"pt": "Eslováquia"
+						},
+						{
+							"id": "SM",
+							"en": "San Marino",
+							"zh": "圣马力诺",
+							"es": "San Marino",
+							"pt": "San Marino"
+						},
+						{
+							"id": "VA",
+							"en": "Vatican",
+							"zh": "梵蒂冈",
+							"es": "Ciudad del Vaticano",
+							"pt": "Vaticano"
+						},
+						{
+							"id": "XK",
+							"en": "Kosovo",
+							"zh": "科索沃",
+							"es": "Kosovo",
+							"pt": "Kosovo"
+						},
+						{
+							"id": "SJ",
+							"en": "Svalbard and Jan Mayen",
+							"zh": "斯瓦尔巴群岛和扬马延岛",
+							"es": "Svalbard and Jan Mayen",
+							"pt": "Svalbard and Jan Mayen"
+						},
+						{
+							"id": "BQ",
+							"en": "Bonaire, Sint Eustatius and Saba",
+							"zh": "荷兰加勒比",
+							"es": "Bonaire, Sint Eustatius and Saba",
+							"pt": "Bonaire, Sint Eustatius and Saba"
+						}
+					]
+				},
+				{
+					"id": "NA",
+					"en": "North America",
+					"zh": "北美洲",
+					"es": "América del Norte",
+					"pt": "América do Norte",
+					"children": [
+						{
+							"id": "US",
+							"en": "United States",
+							"zh": "美国",
+							"es": "Estados Unidos de América",
+							"pt": "Estados Unidos"
+						},
+						{
+							"id": "CA",
+							"en": "Canada",
+							"zh": "加拿大",
+							"es": "Canadá",
+							"pt": "Canadá"
+						},
+						{
+							"id": "MX",
+							"en": "Mexico",
+							"zh": "墨西哥",
+							"es": "México",
+							"pt": "México"
+						},
+						{
+							"id": "AG",
+							"en": "Antigua and Barbuda",
+							"zh": "安提瓜和巴布达",
+							"es": "Antigua y Barbuda",
+							"pt": "Antígua e Barbuda"
+						},
+						{
+							"id": "BB",
+							"en": "Barbados",
+							"zh": "巴巴多斯",
+							"es": "Barbados",
+							"pt": "Barbados"
+						},
+						{
+							"id": "BS",
+							"en": "Bahamas",
+							"zh": "巴哈马",
+							"es": "Bahamas",
+							"pt": "Bahamas"
+						},
+						{
+							"id": "BZ",
+							"en": "Belize",
+							"zh": "伯利兹",
+							"es": "Belice",
+							"pt": "Belize"
+						},
+						{
+							"id": "CR",
+							"en": "Costa Rica",
+							"zh": "哥斯达黎加",
+							"es": "Costa Rica",
+							"pt": "Costa Rica"
+						},
+						{
+							"id": "DM",
+							"en": "Dominica",
+							"zh": "多米尼克",
+							"es": "Dominica",
+							"pt": "Dominica"
+						},
+						{
+							"id": "DO",
+							"en": "Dominican Republic",
+							"zh": "多米尼加",
+							"es": "República Dominicana",
+							"pt": "República Dominicana"
+						},
+						{
+							"id": "GD",
+							"en": "Grenada",
+							"zh": "格林纳达",
+							"es": "Granada",
+							"pt": "Granada"
+						},
+						{
+							"id": "GT",
+							"en": "Guatemala",
+							"zh": "危地马拉",
+							"es": "Guatemala",
+							"pt": "Guatemala"
+						},
+						{
+							"id": "HN",
+							"en": "Honduras",
+							"zh": "洪都拉斯",
+							"es": "Honduras",
+							"pt": "Honduras"
+						},
+						{
+							"id": "HT",
+							"en": "Haiti",
+							"zh": "海地",
+							"es": "Haití",
+							"pt": "Haiti"
+						},
+						{
+							"id": "JM",
+							"en": "Jamaica",
+							"zh": "牙买加",
+							"es": "Jamaica",
+							"pt": "Jamaica"
+						},
+						{
+							"id": "KN",
+							"en": "Saint Kitts and Nevis",
+							"zh": "圣基茨和尼维斯",
+							"es": "San Cristóbal y Nieves",
+							"pt": "São Cristóvão e Nevis"
+						},
+						{
+							"id": "KY",
+							"en": "Cayman Islands",
+							"zh": "开曼群岛",
+							"es": "Islas Caimán",
+							"pt": "Ilhas Caimã"
+						},
+						{
+							"id": "LC",
+							"en": "Saint Lucia",
+							"zh": "圣卢西亚",
+							"es": "Santa Lucía",
+							"pt": "Santa Lúcia"
+						},
+						{
+							"id": "NI",
+							"en": "Nicaragua",
+							"zh": "尼加拉瓜",
+							"es": "Nicaragua",
+							"pt": "Nicarágua"
+						},
+						{
+							"id": "PA",
+							"en": "Panama",
+							"zh": "巴拿马",
+							"es": "Panamá",
+							"pt": "Panamá"
+						},
+						{
+							"id": "PR",
+							"en": "Puerto Rico",
+							"zh": "波多黎各",
+							"es": "Puerto Rico",
+							"pt": "Puerto Rico"
+						},
+						{
+							"id": "SV",
+							"en": "El Salvador",
+							"zh": "萨尔瓦多",
+							"es": "El Salvador",
+							"pt": "El Salvador"
+						},
+						{
+							"id": "TC",
+							"en": "Turks and Caicos Islands",
+							"zh": "特克斯和凯科斯群岛",
+							"es": "Islas Turcas y Caicos",
+							"pt": "Ilhas Turks e Caicos"
+						},
+						{
+							"id": "TT",
+							"en": "Trinidad and Tobago",
+							"zh": "特立尼达和多巴哥",
+							"es": "Trinidad y Tobago",
+							"pt": "Trinidad e Tobago"
+						},
+						{
+							"id": "VG",
+							"en": "British Virgin Islands",
+							"zh": "英属维尔京群岛",
+							"es": "Islas Vírgenes Británicas",
+							"pt": "Ilhas Virgens Britânicas"
+						},
+						{
+							"id": "VI",
+							"en": "U.S. Virgin Islands",
+							"zh": "美属维尔京群岛",
+							"es": "Islas Vírgenes de los Estados Unidos de América",
+							"pt": "Ilhas Virgens Americanas"
+						},
+						{
+							"id": "VC",
+							"en": "Saint Vincent and the Grenadines",
+							"zh": "圣文森特和格林纳丁斯",
+							"es": "San Vicente y las Granadinas",
+							"pt": "São Vicente e Granadinas"
+						},
+						{
+							"id": "MF",
+							"en": "Saint martin",
+							"zh": "法属圣马丁",
+							"es": "Saint martin",
+							"pt": "Saint martin"
+						},
+						{
+							"id": "PM",
+							"en": "San Piere and Miquelon Islands",
+							"zh": "圣皮艾尔和密克隆群岛",
+							"es": "San Piere and Miquelon Islands",
+							"pt": "San Piere and Miquelon Islands"
+						},
+						{
+							"id": "CU",
+							"en": "Cuba",
+							"zh": "古巴",
+							"es": "Cuba",
+							"pt": "Cuba"
+						},
+						{
+							"id": "GL",
+							"en": "Greenland",
+							"zh": "格陵兰岛",
+							"es": "Groenlandia",
+							"pt": "Groenlândia"
+						},
+						{
+							"id": "MQ",
+							"en": "Martinique",
+							"zh": "法属马提尼克群岛-马提尼克",
+							"es": "Martinique",
+							"pt": "Martinique"
+						},
+						{
+							"id": "SX",
+							"en": "Sint Maarten (Dutch part)",
+							"zh": "荷属圣马丁",
+							"es": "Sint Maarten (Dutch part)",
+							"pt": "Sint Maarten (Dutch part)"
+						}
+					]
+				},
+				{
+					"id": "LA",
+					"en": "South America",
+					"zh": "南美洲",
+					"es": "Sudamérica",
+					"pt": "América do Sul",
+					"children": [
+						{
+							"id": "BR",
+							"en": "Brazil",
+							"zh": "巴西",
+							"es": "Brasil",
+							"pt": "Brasil"
+						},
+						{
+							"id": "AR",
+							"en": "Argentina",
+							"zh": "阿根廷",
+							"es": "Argentina",
+							"pt": "Argentina"
+						},
+						{
+							"id": "AI",
+							"en": "Anguilla",
+							"zh": "安圭拉",
+							"es": "Anguila",
+							"pt": "Anguilla"
+						},
+						{
+							"id": "AW",
+							"en": "Aruba",
+							"zh": "阿鲁巴",
+							"es": "Aruba",
+							"pt": "Aruba"
+						},
+						{
+							"id": "BL",
+							"en": "Saint Barthelemy",
+							"zh": "圣巴泰勒米岛",
+							"es": "San Bartolomé",
+							"pt": "São Bartolomeu"
+						},
+						{
+							"id": "BM",
+							"en": "Bermuda",
+							"zh": "百慕大",
+							"es": "Bermudas",
+							"pt": "Bermuda"
+						},
+						{
+							"id": "GP",
+							"en": "Guadeloupe",
+							"zh": "瓜德罗普",
+							"es": "Guadalupe",
+							"pt": "Guadalupe"
+						},
+						{
+							"id": "MS",
+							"en": "Montserrat",
+							"zh": "蒙特塞拉特岛",
+							"es": "Montserrat",
+							"pt": "Montserrat"
+						},
+						{
+							"id": "BO",
+							"en": "Bolivia",
+							"zh": "玻利维亚",
+							"es": "Bolivia",
+							"pt": "Bolívia"
+						},
+						{
+							"id": "CL",
+							"en": "Chile",
+							"zh": "智利",
+							"es": "Chile",
+							"pt": "Chile"
+						},
+						{
+							"id": "CO",
+							"en": "Colombia",
+							"zh": "哥伦比亚",
+							"es": "Colombia",
+							"pt": "Colômbia"
+						},
+						{
+							"id": "CW",
+							"en": "Curacao",
+							"zh": "库拉索",
+							"es": "Curazao",
+							"pt": "Curacao"
+						},
+						{
+							"id": "EC",
+							"en": "Ecuador",
+							"zh": "厄瓜多尔",
+							"es": "Ecuador",
+							"pt": "Equador"
+						},
+						{
+							"id": "GF",
+							"en": "French Guiana",
+							"zh": "法属圭亚那",
+							"es": "Guayana Francesa",
+							"pt": "Guiana Francesa"
+						},
+						{
+							"id": "GY",
+							"en": "Guyana",
+							"zh": "圭亚那",
+							"es": "Guyana",
+							"pt": "Guiana"
+						},
+						{
+							"id": "PE",
+							"en": "Peru",
+							"zh": "秘鲁",
+							"es": "Perú",
+							"pt": "Peru"
+						},
+						{
+							"id": "PY",
+							"en": "Paraguay",
+							"zh": "巴拉圭",
+							"es": "Paraguay",
+							"pt": "Paraguai"
+						},
+						{
+							"id": "SR",
+							"en": "Suriname",
+							"zh": "苏里南",
+							"es": "Surinam",
+							"pt": "Suriname"
+						},
+						{
+							"id": "UY",
+							"en": "Uruguay",
+							"zh": "乌拉圭",
+							"es": "Uruguay",
+							"pt": "Uruguai"
+						},
+						{
+							"id": "VE",
+							"en": "Venezuela",
+							"zh": "委内瑞拉",
+							"es": "Venezuela",
+							"pt": "Venezuela"
+						}
+					]
+				},
+				{
+					"id": "AF",
+					"en": "Africa",
+					"zh": "非洲",
+					"es": "África",
+					"pt": "África",
+					"children": [
+						{
+							"id": "ZA",
+							"en": "South Africa",
+							"zh": "南非",
+							"es": "Sudáfrica",
+							"pt": "África do Sul"
+						},
+						{
+							"id": "EG",
+							"en": "Egypt",
+							"zh": "埃及",
+							"es": "Egipto",
+							"pt": "Egito"
+						},
+						{
+							"id": "AO",
+							"en": "Angola",
+							"zh": "安哥拉",
+							"es": "Angola",
+							"pt": "Angola"
+						},
+						{
+							"id": "BF",
+							"en": "Burkina Faso",
+							"zh": "布基纳法索",
+							"es": "Burkina Faso",
+							"pt": "Burkina Faso"
+						},
+						{
+							"id": "BI",
+							"en": "Burundi",
+							"zh": "布隆迪",
+							"es": "Burundi",
+							"pt": "Burundi"
+						},
+						{
+							"id": "BJ",
+							"en": "Benin",
+							"zh": "贝宁",
+							"es": "Benín",
+							"pt": "Bênin"
+						},
+						{
+							"id": "BW",
+							"en": "Botswana",
+							"zh": "博茨瓦纳",
+							"es": "Botsuana",
+							"pt": "Botswana"
+						},
+						{
+							"id": "CD",
+							"en": "Democratic Republic of the Congo",
+							"zh": "刚果金",
+							"es": "República Democrática del Congo",
+							"pt": "República Democrática do Congo"
+						},
+						{
+							"id": "CF",
+							"en": "Central African Republic",
+							"zh": "中非",
+							"es": "República Centroafricana",
+							"pt": "República Centro-Africana"
+						},
+						{
+							"id": "CG",
+							"en": "Republic of the Congo",
+							"zh": "刚果布",
+							"es": "República del Congo",
+							"pt": "República do Congo"
+						},
+						{
+							"id": "CI",
+							"en": "Côte d'Ivoire",
+							"zh": "科特迪瓦",
+							"es": "Costa de Marfil",
+							"pt": "Costa do Marfim"
+						},
+						{
+							"id": "CM",
+							"en": "Cameroon",
+							"zh": "喀麦隆",
+							"es": "Camerún",
+							"pt": "Camarões"
+						},
+						{
+							"id": "CV",
+							"en": "Cape Verde",
+							"zh": "佛得角",
+							"es": "Cabo Verde",
+							"pt": "Cabo Verde"
+						},
+						{
+							"id": "DJ",
+							"en": "Djibouti",
+							"zh": "吉布提",
+							"es": "Yibuti",
+							"pt": "Djibouti"
+						},
+						{
+							"id": "DZ",
+							"en": "Algeria",
+							"zh": "阿尔及利亚",
+							"es": "Argelia",
+							"pt": "Argélia"
+						},
+						{
+							"id": "ER",
+							"en": "Eritrea",
+							"zh": "厄立特里亚",
+							"es": "Eritrea",
+							"pt": "Eritreia"
+						},
+						{
+							"id": "ET",
+							"en": "Ethiopia",
+							"zh": "埃塞俄比亚",
+							"es": "Etiopía",
+							"pt": "Etiópia"
+						},
+						{
+							"id": "GA",
+							"en": "Gabon",
+							"zh": "加蓬",
+							"es": "Gabón",
+							"pt": "Gabão"
+						},
+						{
+							"id": "GH",
+							"en": "Ghana",
+							"zh": "加纳",
+							"es": "Ghana",
+							"pt": "Gana"
+						},
+						{
+							"id": "GM",
+							"en": "Gambia",
+							"zh": "冈比亚",
+							"es": "Gambia",
+							"pt": "Gâmbia"
+						},
+						{
+							"id": "GN",
+							"en": "Guinea",
+							"zh": "几内亚",
+							"es": "Guinea",
+							"pt": "Guiné"
+						},
+						{
+							"id": "GQ",
+							"en": "Equatorial Guinea",
+							"zh": "赤道几内亚",
+							"es": "Guinea Ecuatorial",
+							"pt": "Guiné Equatorial"
+						},
+						{
+							"id": "GW",
+							"en": "Guinea-Bissau",
+							"zh": "几内亚比绍",
+							"es": "Guinea-Bisáu",
+							"pt": "Guiné-Bissau"
+						},
+						{
+							"id": "KE",
+							"en": "Kenya",
+							"zh": "肯尼亚",
+							"es": "Kenia",
+							"pt": "Quênia"
+						},
+						{
+							"id": "KM",
+							"en": "Comoros",
+							"zh": "科摩罗",
+							"es": "Comoras",
+							"pt": "Comoros"
+						},
+						{
+							"id": "LR",
+							"en": "Liberia",
+							"zh": "利比里亚",
+							"es": "Liberia",
+							"pt": "Libéria"
+						},
+						{
+							"id": "LS",
+							"en": "Lesotho",
+							"zh": "莱索托",
+							"es": "Lesoto",
+							"pt": "Lesoto"
+						},
+						{
+							"id": "LY",
+							"en": "Libya",
+							"zh": "利比亚",
+							"es": "Libia",
+							"pt": "Líbia"
+						},
+						{
+							"id": "MA",
+							"en": "Morocco",
+							"zh": "摩洛哥",
+							"es": "Marruecos",
+							"pt": "Marrocos"
+						},
+						{
+							"id": "MG",
+							"en": "Madagascar",
+							"zh": "马达加斯加",
+							"es": "Madagascar",
+							"pt": "Madagascar"
+						},
+						{
+							"id": "ML",
+							"en": "Mali",
+							"zh": "马里",
+							"es": "Mali",
+							"pt": "Mali"
+						},
+						{
+							"id": "MR",
+							"en": "Mauritania",
+							"zh": "毛里塔尼亚",
+							"es": "Mauritania",
+							"pt": "Mauritânia"
+						},
+						{
+							"id": "MU",
+							"en": "Mauritius",
+							"zh": "毛里求斯",
+							"es": "Mauricio",
+							"pt": "Maurício"
+						},
+						{
+							"id": "MW",
+							"en": "Malawi",
+							"zh": "马拉维",
+							"es": "Malaui",
+							"pt": "Malawi"
+						},
+						{
+							"id": "MZ",
+							"en": "Mozambique",
+							"zh": "莫桑比克",
+							"es": "Mozambique",
+							"pt": "Moçambique"
+						},
+						{
+							"id": "NE",
+							"en": "Niger",
+							"zh": "尼日尔",
+							"es": "Níger",
+							"pt": "Níger"
+						},
+						{
+							"id": "NG",
+							"en": "Nigeria",
+							"zh": "尼日利亚",
+							"es": "Nigeria",
+							"pt": "Nigéria"
+						},
+						{
+							"id": "RE",
+							"en": "Reunion",
+							"zh": "留尼汪",
+							"es": "Reunión",
+							"pt": "Reunião"
+						},
+						{
+							"id": "RW",
+							"en": "Rwanda",
+							"zh": "卢旺达",
+							"es": "Ruanda",
+							"pt": "Ruanda"
+						},
+						{
+							"id": "SC",
+							"en": "Seychelles",
+							"zh": "塞舌尔",
+							"es": "Seychelles",
+							"pt": "Seicheles"
+						},
+						{
+							"id": "SL",
+							"en": "Sierra Leone",
+							"zh": "塞拉利昂",
+							"es": "Sierra Leona",
+							"pt": "Serra Leoa"
+						},
+						{
+							"id": "SN",
+							"en": "Senegal",
+							"zh": "塞内加尔",
+							"es": "Senegal",
+							"pt": "Senegal"
+						},
+						{
+							"id": "SO",
+							"en": "Somalia",
+							"zh": "索马里",
+							"es": "Somalia",
+							"pt": "Somália"
+						},
+						{
+							"id": "SS",
+							"en": "South Sudan",
+							"zh": "南苏丹",
+							"es": "Sudán del Sur",
+							"pt": "Sudão do Sul"
+						},
+						{
+							"id": "ST",
+							"en": "Sao Tome and Principe",
+							"zh": "圣多美和普林西比",
+							"es": "Santo Tomé y Príncipe",
+							"pt": "São Tomé e Príncipe"
+						},
+						{
+							"id": "SZ",
+							"en": "Eswatini",
+							"zh": "斯威士兰",
+							"es": "Esuatini",
+							"pt": "Suazilândia"
+						},
+						{
+							"id": "TD",
+							"en": "Chad",
+							"zh": "乍得",
+							"es": "Chad",
+							"pt": "Chade"
+						},
+						{
+							"id": "TG",
+							"en": "Togo",
+							"zh": "多哥",
+							"es": "Togo",
+							"pt": "Togo"
+						},
+						{
+							"id": "TN",
+							"en": "Tunisia",
+							"zh": "突尼斯",
+							"es": "Túnez",
+							"pt": "Tunísia"
+						},
+						{
+							"id": "TZ",
+							"en": "Tanzania",
+							"zh": "坦桑尼亚",
+							"es": "Tanzania",
+							"pt": "Tanzânia"
+						},
+						{
+							"id": "UG",
+							"en": "Uganda",
+							"zh": "乌干达",
+							"es": "Uganda",
+							"pt": "Uganda"
+						},
+						{
+							"id": "YT",
+							"en": "Mayotte",
+							"zh": "马约特",
+							"es": "Mayotte",
+							"pt": "Mayotte"
+						},
+						{
+							"id": "ZM",
+							"en": "Zambia",
+							"zh": "赞比亚",
+							"es": "Zambia",
+							"pt": "Zâmbia"
+						},
+						{
+							"id": "ZW",
+							"en": "Zimbabwe",
+							"zh": "津巴布韦",
+							"es": "Zimbabue",
+							"pt": "Zimbábue"
+						},
+						{
+							"id": "NAM",
+							"en": "Namibia",
+							"zh": "纳米比亚",
+							"es": "Namibia",
+							"pt": "Namíbia"
+						},
+						{
+							"id": "SD",
+							"en": "Sudan",
+							"zh": "苏丹",
+							"es": "Sudan",
+							"pt": "Sudan"
+						}
+					]
+				},
+				{
+					"id": "AQ",
+					"en": "Antarctica",
+					"zh": "南极洲",
+					"es": "Antarctica",
+					"pt": "Antarctica",
+					"children": [
+						{
+							"id": "AQ",
+							"en": "Antarctica",
+							"zh": "南极洲",
+							"es": "Antarctica",
+							"pt": "Antarctica"
+						}
+					]
+				}
+			]
+		}
+	],
+	"ISP": [
+		{
+			"id": "Dianxin",
+			"en": "China Telecom",
+			"zh": "电信",
+			"es": "China Telecom",
+			"pt": "China Telecom",
+			"children": [
+				{
+					"id": "Huabei",
+					"en": "North China",
+					"zh": "华北地区",
+					"es": "China del Norte",
+					"pt": "China Setentrional",
+					"children": [
+						{
+							"id": "Beijing",
+							"en": "Beijing",
+							"zh": "北京",
+							"es": "Beijing",
+							"pt": "Beijing"
+						},
+						{
+							"id": "Tianjin",
+							"en": "Tianjin",
+							"zh": "天津",
+							"es": "Tianjin",
+							"pt": "Tianjin"
+						},
+						{
+							"id": "Hebei",
+							"en": "Hebei",
+							"zh": "河北",
+							"es": "Hebei",
+							"pt": "Hebei"
+						},
+						{
+							"id": "Shanxi",
+							"en": "Shanxi",
+							"zh": "山西",
+							"es": "Shanxi",
+							"pt": "Shanxi"
+						},
+						{
+							"id": "Neimenggu",
+							"en": "Inner Mongolia",
+							"zh": "内蒙古",
+							"es": "Inner Mongolia",
+							"pt": "Inner Mongolia"
+						}
+					]
+				},
+				{
+					"id": "Dongbei",
+					"en": "Northeast China",
+					"zh": "东北地区",
+					"es": "China del Noreste",
+					"pt": "Nordeste da China",
+					"children": [
+						{
+							"id": "Liaoning",
+							"en": "Liaoning",
+							"zh": "辽宁",
+							"es": "Liaoning",
+							"pt": "Liaoning"
+						},
+						{
+							"id": "Jilin",
+							"en": "Jilin",
+							"zh": "吉林",
+							"es": "Jilin",
+							"pt": "Jilin"
+						},
+						{
+							"id": "Heilongjiang",
+							"en": "Heilongjiang",
+							"zh": "黑龙江",
+							"es": "Heilongjiang",
+							"pt": "Heilongjiang"
+						}
+					]
+				},
+				{
+					"id": "Xibei",
+					"en": "Northwest China",
+					"zh": "西北地区",
+					"es": "China del Noroeste",
+					"pt": "Noroeste da China",
+					"children": [
+						{
+							"id": "Shaanxi",
+							"en": "Shaanxi",
+							"zh": "陕西",
+							"es": "Shaanxi",
+							"pt": "Shaanxi"
+						},
+						{
+							"id": "Gansu",
+							"en": "Gansu",
+							"zh": "甘肃",
+							"es": "Gansu",
+							"pt": "Gansu"
+						},
+						{
+							"id": "Qinghai",
+							"en": "Qinghai",
+							"zh": "青海",
+							"es": "Qinghai",
+							"pt": "Qinghai"
+						},
+						{
+							"id": "Ningxia",
+							"en": "Ningxia",
+							"zh": "宁夏",
+							"es": "Ningxia",
+							"pt": "Ningxia"
+						},
+						{
+							"id": "Xinjiang",
+							"en": "Xinjiang",
+							"zh": "新疆",
+							"es": "Xinjiang",
+							"pt": "Xinjiang"
+						}
+					]
+				},
+				{
+					"id": "Huazhong",
+					"en": "Central China",
+					"zh": "华中地区",
+					"es": "China central",
+					"pt": "China Central",
+					"children": [
+						{
+							"id": "Henan",
+							"en": "Henan",
+							"zh": "河南",
+							"es": "Henan",
+							"pt": "Henan"
+						},
+						{
+							"id": "Hubei",
+							"en": "Hubei",
+							"zh": "湖北",
+							"es": "Hubei",
+							"pt": "Hubei"
+						},
+						{
+							"id": "Hunan",
+							"en": "Hunan",
+							"zh": "湖南",
+							"es": "Hunan",
+							"pt": "Hunan"
+						}
+					]
+				},
+				{
+					"id": "Huadong",
+					"en": "East China",
+					"zh": "华东地区",
+					"es": "China del Este",
+					"pt": "Leste da China",
+					"children": [
+						{
+							"id": "Shanghai",
+							"en": "Shanghai",
+							"zh": "上海",
+							"es": "Shanghai",
+							"pt": "Shanghai"
+						},
+						{
+							"id": "Jiangsu",
+							"en": "Jiangsu",
+							"zh": "江苏",
+							"es": "Jiangsu",
+							"pt": "Jiangsu"
+						},
+						{
+							"id": "Zhejiang",
+							"en": "Zhejiang",
+							"zh": "浙江",
+							"es": "Zhejiang",
+							"pt": "Zhejiang"
+						},
+						{
+							"id": "Anhui",
+							"en": "Anhui",
+							"zh": "安徽",
+							"es": "Anhui",
+							"pt": "Anhui"
+						},
+						{
+							"id": "Fujian",
+							"en": "Fujian",
+							"zh": "福建",
+							"es": "Fujian",
+							"pt": "Fujian"
+						},
+						{
+							"id": "Jiangxi",
+							"en": "Jiangxi",
+							"zh": "江西",
+							"es": "Jiangxi",
+							"pt": "Jiangxi"
+						},
+						{
+							"id": "Shandong",
+							"en": "Shandong",
+							"zh": "山东",
+							"es": "Shandong",
+							"pt": "Shandong"
+						}
+					]
+				},
+				{
+					"id": "Huanan",
+					"en": "South China",
+					"zh": "华南地区",
+					"es": "China del Sur",
+					"pt": "China Meridional",
+					"children": [
+						{
+							"id": "Guangdong",
+							"en": "Guangdong",
+							"zh": "广东",
+							"es": "Guangdong",
+							"pt": "Guangdong"
+						},
+						{
+							"id": "Hainan",
+							"en": "Hainan",
+							"zh": "海南",
+							"es": "Hainan",
+							"pt": "Hainan"
+						},
+						{
+							"id": "Guangxi",
+							"en": "Guangxi",
+							"zh": "广西",
+							"es": "Guangxi",
+							"pt": "Guangxi"
+						}
+					]
+				},
+				{
+					"id": "Xinan",
+					"en": "Southwest China",
+					"zh": "西南地区",
+					"es": "China del Suroeste",
+					"pt": "Sudoeste da China",
+					"children": [
+						{
+							"id": "Chongqing",
+							"en": "Chongqing",
+							"zh": "重庆",
+							"es": "Chongqing",
+							"pt": "Chongqing"
+						},
+						{
+							"id": "Sichuan",
+							"en": "Sichuan",
+							"zh": "四川",
+							"es": "Sichuan",
+							"pt": "Sichuan"
+						},
+						{
+							"id": "Guizhou",
+							"en": "Guizhou",
+							"zh": "贵州",
+							"es": "Guizhou",
+							"pt": "Guizhou"
+						},
+						{
+							"id": "Yunnan",
+							"en": "Yunnan",
+							"zh": "云南",
+							"es": "Yunnan",
+							"pt": "Yunnan"
+						},
+						{
+							"id": "Xizang",
+							"en": "Tibet",
+							"zh": "西藏",
+							"es": "Tibet",
+							"pt": "Tibet"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "Yidong",
+			"en": "China Mobile",
+			"zh": "移动",
+			"es": "China Mobile",
+			"pt": "China Mobile",
+			"children": [
+				{
+					"id": "Huabei",
+					"en": "North China",
+					"zh": "华北地区",
+					"es": "China del Norte",
+					"pt": "China Setentrional",
+					"children": [
+						{
+							"id": "Beijing",
+							"en": "Beijing",
+							"zh": "北京",
+							"es": "Beijing",
+							"pt": "Beijing"
+						},
+						{
+							"id": "Tianjin",
+							"en": "Tianjin",
+							"zh": "天津",
+							"es": "Tianjin",
+							"pt": "Tianjin"
+						},
+						{
+							"id": "Hebei",
+							"en": "Hebei",
+							"zh": "河北",
+							"es": "Hebei",
+							"pt": "Hebei"
+						},
+						{
+							"id": "Shanxi",
+							"en": "Shanxi",
+							"zh": "山西",
+							"es": "Shanxi",
+							"pt": "Shanxi"
+						},
+						{
+							"id": "Neimenggu",
+							"en": "Inner Mongolia",
+							"zh": "内蒙古",
+							"es": "Inner Mongolia",
+							"pt": "Inner Mongolia"
+						}
+					]
+				},
+				{
+					"id": "Dongbei",
+					"en": "Northeast China",
+					"zh": "东北地区",
+					"es": "China del Noreste",
+					"pt": "Nordeste da China",
+					"children": [
+						{
+							"id": "Liaoning",
+							"en": "Liaoning",
+							"zh": "辽宁",
+							"es": "Liaoning",
+							"pt": "Liaoning"
+						},
+						{
+							"id": "Jilin",
+							"en": "Jilin",
+							"zh": "吉林",
+							"es": "Jilin",
+							"pt": "Jilin"
+						},
+						{
+							"id": "Heilongjiang",
+							"en": "Heilongjiang",
+							"zh": "黑龙江",
+							"es": "Heilongjiang",
+							"pt": "Heilongjiang"
+						}
+					]
+				},
+				{
+					"id": "Xibei",
+					"en": "Northwest China",
+					"zh": "西北地区",
+					"es": "China del Noroeste",
+					"pt": "Noroeste da China",
+					"children": [
+						{
+							"id": "Shaanxi",
+							"en": "Shaanxi",
+							"zh": "陕西",
+							"es": "Shaanxi",
+							"pt": "Shaanxi"
+						},
+						{
+							"id": "Gansu",
+							"en": "Gansu",
+							"zh": "甘肃",
+							"es": "Gansu",
+							"pt": "Gansu"
+						},
+						{
+							"id": "Qinghai",
+							"en": "Qinghai",
+							"zh": "青海",
+							"es": "Qinghai",
+							"pt": "Qinghai"
+						},
+						{
+							"id": "Ningxia",
+							"en": "Ningxia",
+							"zh": "宁夏",
+							"es": "Ningxia",
+							"pt": "Ningxia"
+						},
+						{
+							"id": "Xinjiang",
+							"en": "Xinjiang",
+							"zh": "新疆",
+							"es": "Xinjiang",
+							"pt": "Xinjiang"
+						}
+					]
+				},
+				{
+					"id": "Huazhong",
+					"en": "Central China",
+					"zh": "华中地区",
+					"es": "China central",
+					"pt": "China Central",
+					"children": [
+						{
+							"id": "Henan",
+							"en": "Henan",
+							"zh": "河南",
+							"es": "Henan",
+							"pt": "Henan"
+						},
+						{
+							"id": "Hubei",
+							"en": "Hubei",
+							"zh": "湖北",
+							"es": "Hubei",
+							"pt": "Hubei"
+						},
+						{
+							"id": "Hunan",
+							"en": "Hunan",
+							"zh": "湖南",
+							"es": "Hunan",
+							"pt": "Hunan"
+						}
+					]
+				},
+				{
+					"id": "Huadong",
+					"en": "East China",
+					"zh": "华东地区",
+					"es": "China del Este",
+					"pt": "Leste da China",
+					"children": [
+						{
+							"id": "Shanghai",
+							"en": "Shanghai",
+							"zh": "上海",
+							"es": "Shanghai",
+							"pt": "Shanghai"
+						},
+						{
+							"id": "Jiangsu",
+							"en": "Jiangsu",
+							"zh": "江苏",
+							"es": "Jiangsu",
+							"pt": "Jiangsu"
+						},
+						{
+							"id": "Zhejiang",
+							"en": "Zhejiang",
+							"zh": "浙江",
+							"es": "Zhejiang",
+							"pt": "Zhejiang"
+						},
+						{
+							"id": "Anhui",
+							"en": "Anhui",
+							"zh": "安徽",
+							"es": "Anhui",
+							"pt": "Anhui"
+						},
+						{
+							"id": "Fujian",
+							"en": "Fujian",
+							"zh": "福建",
+							"es": "Fujian",
+							"pt": "Fujian"
+						},
+						{
+							"id": "Jiangxi",
+							"en": "Jiangxi",
+							"zh": "江西",
+							"es": "Jiangxi",
+							"pt": "Jiangxi"
+						},
+						{
+							"id": "Shandong",
+							"en": "Shandong",
+							"zh": "山东",
+							"es": "Shandong",
+							"pt": "Shandong"
+						}
+					]
+				},
+				{
+					"id": "Huanan",
+					"en": "South China",
+					"zh": "华南地区",
+					"es": "China del Sur",
+					"pt": "China Meridional",
+					"children": [
+						{
+							"id": "Guangdong",
+							"en": "Guangdong",
+							"zh": "广东",
+							"es": "Guangdong",
+							"pt": "Guangdong"
+						},
+						{
+							"id": "Hainan",
+							"en": "Hainan",
+							"zh": "海南",
+							"es": "Hainan",
+							"pt": "Hainan"
+						},
+						{
+							"id": "Guangxi",
+							"en": "Guangxi",
+							"zh": "广西",
+							"es": "Guangxi",
+							"pt": "Guangxi"
+						}
+					]
+				},
+				{
+					"id": "Xinan",
+					"en": "Southwest China",
+					"zh": "西南地区",
+					"es": "China del Suroeste",
+					"pt": "Sudoeste da China",
+					"children": [
+						{
+							"id": "Chongqing",
+							"en": "Chongqing",
+							"zh": "重庆",
+							"es": "Chongqing",
+							"pt": "Chongqing"
+						},
+						{
+							"id": "Sichuan",
+							"en": "Sichuan",
+							"zh": "四川",
+							"es": "Sichuan",
+							"pt": "Sichuan"
+						},
+						{
+							"id": "Guizhou",
+							"en": "Guizhou",
+							"zh": "贵州",
+							"es": "Guizhou",
+							"pt": "Guizhou"
+						},
+						{
+							"id": "Yunnan",
+							"en": "Yunnan",
+							"zh": "云南",
+							"es": "Yunnan",
+							"pt": "Yunnan"
+						},
+						{
+							"id": "Xizang",
+							"en": "Tibet",
+							"zh": "西藏",
+							"es": "Tibet",
+							"pt": "Tibet"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "Liantong",
+			"en": "China Unicom",
+			"zh": "联通",
+			"es": "China Unicom",
+			"pt": "China Unicom",
+			"children": [
+				{
+					"id": "Huabei",
+					"en": "North China",
+					"zh": "华北地区",
+					"es": "China del Norte",
+					"pt": "China Setentrional",
+					"children": [
+						{
+							"id": "Beijing",
+							"en": "Beijing",
+							"zh": "北京",
+							"es": "Beijing",
+							"pt": "Beijing"
+						},
+						{
+							"id": "Tianjin",
+							"en": "Tianjin",
+							"zh": "天津",
+							"es": "Tianjin",
+							"pt": "Tianjin"
+						},
+						{
+							"id": "Hebei",
+							"en": "Hebei",
+							"zh": "河北",
+							"es": "Hebei",
+							"pt": "Hebei"
+						},
+						{
+							"id": "Shanxi",
+							"en": "Shanxi",
+							"zh": "山西",
+							"es": "Shanxi",
+							"pt": "Shanxi"
+						},
+						{
+							"id": "Neimenggu",
+							"en": "Inner Mongolia",
+							"zh": "内蒙古",
+							"es": "Inner Mongolia",
+							"pt": "Inner Mongolia"
+						}
+					]
+				},
+				{
+					"id": "Dongbei",
+					"en": "Northeast China",
+					"zh": "东北地区",
+					"es": "China del Noreste",
+					"pt": "Nordeste da China",
+					"children": [
+						{
+							"id": "Liaoning",
+							"en": "Liaoning",
+							"zh": "辽宁",
+							"es": "Liaoning",
+							"pt": "Liaoning"
+						},
+						{
+							"id": "Jilin",
+							"en": "Jilin",
+							"zh": "吉林",
+							"es": "Jilin",
+							"pt": "Jilin"
+						},
+						{
+							"id": "Heilongjiang",
+							"en": "Heilongjiang",
+							"zh": "黑龙江",
+							"es": "Heilongjiang",
+							"pt": "Heilongjiang"
+						}
+					]
+				},
+				{
+					"id": "Xibei",
+					"en": "Northwest China",
+					"zh": "西北地区",
+					"es": "China del Noroeste",
+					"pt": "Noroeste da China",
+					"children": [
+						{
+							"id": "Shaanxi",
+							"en": "Shaanxi",
+							"zh": "陕西",
+							"es": "Shaanxi",
+							"pt": "Shaanxi"
+						},
+						{
+							"id": "Gansu",
+							"en": "Gansu",
+							"zh": "甘肃",
+							"es": "Gansu",
+							"pt": "Gansu"
+						},
+						{
+							"id": "Qinghai",
+							"en": "Qinghai",
+							"zh": "青海",
+							"es": "Qinghai",
+							"pt": "Qinghai"
+						},
+						{
+							"id": "Ningxia",
+							"en": "Ningxia",
+							"zh": "宁夏",
+							"es": "Ningxia",
+							"pt": "Ningxia"
+						},
+						{
+							"id": "Xinjiang",
+							"en": "Xinjiang",
+							"zh": "新疆",
+							"es": "Xinjiang",
+							"pt": "Xinjiang"
+						}
+					]
+				},
+				{
+					"id": "Huazhong",
+					"en": "Central China",
+					"zh": "华中地区",
+					"es": "China central",
+					"pt": "China Central",
+					"children": [
+						{
+							"id": "Henan",
+							"en": "Henan",
+							"zh": "河南",
+							"es": "Henan",
+							"pt": "Henan"
+						},
+						{
+							"id": "Hubei",
+							"en": "Hubei",
+							"zh": "湖北",
+							"es": "Hubei",
+							"pt": "Hubei"
+						},
+						{
+							"id": "Hunan",
+							"en": "Hunan",
+							"zh": "湖南",
+							"es": "Hunan",
+							"pt": "Hunan"
+						}
+					]
+				},
+				{
+					"id": "Huadong",
+					"en": "East China",
+					"zh": "华东地区",
+					"es": "China del Este",
+					"pt": "Leste da China",
+					"children": [
+						{
+							"id": "Shanghai",
+							"en": "Shanghai",
+							"zh": "上海",
+							"es": "Shanghai",
+							"pt": "Shanghai"
+						},
+						{
+							"id": "Jiangsu",
+							"en": "Jiangsu",
+							"zh": "江苏",
+							"es": "Jiangsu",
+							"pt": "Jiangsu"
+						},
+						{
+							"id": "Zhejiang",
+							"en": "Zhejiang",
+							"zh": "浙江",
+							"es": "Zhejiang",
+							"pt": "Zhejiang"
+						},
+						{
+							"id": "Anhui",
+							"en": "Anhui",
+							"zh": "安徽",
+							"es": "Anhui",
+							"pt": "Anhui"
+						},
+						{
+							"id": "Fujian",
+							"en": "Fujian",
+							"zh": "福建",
+							"es": "Fujian",
+							"pt": "Fujian"
+						},
+						{
+							"id": "Jiangxi",
+							"en": "Jiangxi",
+							"zh": "江西",
+							"es": "Jiangxi",
+							"pt": "Jiangxi"
+						},
+						{
+							"id": "Shandong",
+							"en": "Shandong",
+							"zh": "山东",
+							"es": "Shandong",
+							"pt": "Shandong"
+						}
+					]
+				},
+				{
+					"id": "Huanan",
+					"en": "South China",
+					"zh": "华南地区",
+					"es": "China del Sur",
+					"pt": "China Meridional",
+					"children": [
+						{
+							"id": "Guangdong",
+							"en": "Guangdong",
+							"zh": "广东",
+							"es": "Guangdong",
+							"pt": "Guangdong"
+						},
+						{
+							"id": "Hainan",
+							"en": "Hainan",
+							"zh": "海南",
+							"es": "Hainan",
+							"pt": "Hainan"
+						},
+						{
+							"id": "Guangxi",
+							"en": "Guangxi",
+							"zh": "广西",
+							"es": "Guangxi",
+							"pt": "Guangxi"
+						}
+					]
+				},
+				{
+					"id": "Xinan",
+					"en": "Southwest China",
+					"zh": "西南地区",
+					"es": "China del Suroeste",
+					"pt": "Sudoeste da China",
+					"children": [
+						{
+							"id": "Chongqing",
+							"en": "Chongqing",
+							"zh": "重庆",
+							"es": "Chongqing",
+							"pt": "Chongqing"
+						},
+						{
+							"id": "Sichuan",
+							"en": "Sichuan",
+							"zh": "四川",
+							"es": "Sichuan",
+							"pt": "Sichuan"
+						},
+						{
+							"id": "Guizhou",
+							"en": "Guizhou",
+							"zh": "贵州",
+							"es": "Guizhou",
+							"pt": "Guizhou"
+						},
+						{
+							"id": "Yunnan",
+							"en": "Yunnan",
+							"zh": "云南",
+							"es": "Yunnan",
+							"pt": "Yunnan"
+						},
+						{
+							"id": "Xizang",
+							"en": "Tibet",
+							"zh": "西藏",
+							"es": "Tibet",
+							"pt": "Tibet"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "Jiaoyuwang",
+			"en": "Jiaoyuwang",
+			"zh": "教育网",
+			"es": "Jiaoyuwang",
+			"pt": "Jiaoyuwang"
+		},
+		{
+			"id": "Tietong",
+			"en": "Tietong",
+			"zh": "铁通",
+			"es": "Tietong",
+			"pt": "Tietong"
+		},
+		{
+			"id": "Pengboshi",
+			"en": "Pengboshi",
+			"zh": "鹏博士",
+			"es": "Pengboshi",
+			"pt": "Pengboshi",
+			"children": [
+				{
+					"id": "Huabei",
+					"en": "North China",
+					"zh": "华北地区",
+					"es": "China del Norte",
+					"pt": "China Setentrional",
+					"children": [
+						{
+							"id": "Beijing",
+							"en": "Beijing",
+							"zh": "北京",
+							"es": "Beijing",
+							"pt": "Beijing"
+						},
+						{
+							"id": "Tianjin",
+							"en": "Tianjin",
+							"zh": "天津",
+							"es": "Tianjin",
+							"pt": "Tianjin"
+						},
+						{
+							"id": "Hebei",
+							"en": "Hebei",
+							"zh": "河北",
+							"es": "Hebei",
+							"pt": "Hebei"
+						},
+						{
+							"id": "Shanxi",
+							"en": "Shanxi",
+							"zh": "山西",
+							"es": "Shanxi",
+							"pt": "Shanxi"
+						},
+						{
+							"id": "Neimenggu",
+							"en": "Inner Mongolia",
+							"zh": "内蒙古",
+							"es": "Inner Mongolia",
+							"pt": "Inner Mongolia"
+						}
+					]
+				},
+				{
+					"id": "Dongbei",
+					"en": "Northeast China",
+					"zh": "东北地区",
+					"es": "China del Noreste",
+					"pt": "Nordeste da China",
+					"children": [
+						{
+							"id": "Liaoning",
+							"en": "Liaoning",
+							"zh": "辽宁",
+							"es": "Liaoning",
+							"pt": "Liaoning"
+						},
+						{
+							"id": "Jilin",
+							"en": "Jilin",
+							"zh": "吉林",
+							"es": "Jilin",
+							"pt": "Jilin"
+						},
+						{
+							"id": "Heilongjiang",
+							"en": "Heilongjiang",
+							"zh": "黑龙江",
+							"es": "Heilongjiang",
+							"pt": "Heilongjiang"
+						}
+					]
+				},
+				{
+					"id": "Xibei",
+					"en": "Northwest China",
+					"zh": "西北地区",
+					"es": "China del Noroeste",
+					"pt": "Noroeste da China",
+					"children": [
+						{
+							"id": "Shaanxi",
+							"en": "Shaanxi",
+							"zh": "陕西",
+							"es": "Shaanxi",
+							"pt": "Shaanxi"
+						},
+						{
+							"id": "Gansu",
+							"en": "Gansu",
+							"zh": "甘肃",
+							"es": "Gansu",
+							"pt": "Gansu"
+						},
+						{
+							"id": "Qinghai",
+							"en": "Qinghai",
+							"zh": "青海",
+							"es": "Qinghai",
+							"pt": "Qinghai"
+						},
+						{
+							"id": "Ningxia",
+							"en": "Ningxia",
+							"zh": "宁夏",
+							"es": "Ningxia",
+							"pt": "Ningxia"
+						},
+						{
+							"id": "Xinjiang",
+							"en": "Xinjiang",
+							"zh": "新疆",
+							"es": "Xinjiang",
+							"pt": "Xinjiang"
+						}
+					]
+				},
+				{
+					"id": "Huazhong",
+					"en": "Central China",
+					"zh": "华中地区",
+					"es": "China central",
+					"pt": "China Central",
+					"children": [
+						{
+							"id": "Henan",
+							"en": "Henan",
+							"zh": "河南",
+							"es": "Henan",
+							"pt": "Henan"
+						},
+						{
+							"id": "Hubei",
+							"en": "Hubei",
+							"zh": "湖北",
+							"es": "Hubei",
+							"pt": "Hubei"
+						},
+						{
+							"id": "Hunan",
+							"en": "Hunan",
+							"zh": "湖南",
+							"es": "Hunan",
+							"pt": "Hunan"
+						}
+					]
+				},
+				{
+					"id": "Huadong",
+					"en": "East China",
+					"zh": "华东地区",
+					"es": "China del Este",
+					"pt": "Leste da China",
+					"children": [
+						{
+							"id": "Shanghai",
+							"en": "Shanghai",
+							"zh": "上海",
+							"es": "Shanghai",
+							"pt": "Shanghai"
+						},
+						{
+							"id": "Jiangsu",
+							"en": "Jiangsu",
+							"zh": "江苏",
+							"es": "Jiangsu",
+							"pt": "Jiangsu"
+						},
+						{
+							"id": "Zhejiang",
+							"en": "Zhejiang",
+							"zh": "浙江",
+							"es": "Zhejiang",
+							"pt": "Zhejiang"
+						},
+						{
+							"id": "Anhui",
+							"en": "Anhui",
+							"zh": "安徽",
+							"es": "Anhui",
+							"pt": "Anhui"
+						},
+						{
+							"id": "Fujian",
+							"en": "Fujian",
+							"zh": "福建",
+							"es": "Fujian",
+							"pt": "Fujian"
+						},
+						{
+							"id": "Jiangxi",
+							"en": "Jiangxi",
+							"zh": "江西",
+							"es": "Jiangxi",
+							"pt": "Jiangxi"
+						},
+						{
+							"id": "Shandong",
+							"en": "Shandong",
+							"zh": "山东",
+							"es": "Shandong",
+							"pt": "Shandong"
+						}
+					]
+				},
+				{
+					"id": "Huanan",
+					"en": "South China",
+					"zh": "华南地区",
+					"es": "China del Sur",
+					"pt": "China Meridional",
+					"children": [
+						{
+							"id": "Guangdong",
+							"en": "Guangdong",
+							"zh": "广东",
+							"es": "Guangdong",
+							"pt": "Guangdong"
+						},
+						{
+							"id": "Hainan",
+							"en": "Hainan",
+							"zh": "海南",
+							"es": "Hainan",
+							"pt": "Hainan"
+						},
+						{
+							"id": "Guangxi",
+							"en": "Guangxi",
+							"zh": "广西",
+							"es": "Guangxi",
+							"pt": "Guangxi"
+						}
+					]
+				},
+				{
+					"id": "Xinan",
+					"en": "Southwest China",
+					"zh": "西南地区",
+					"es": "China del Suroeste",
+					"pt": "Sudoeste da China",
+					"children": [
+						{
+							"id": "Chongqing",
+							"en": "Chongqing",
+							"zh": "重庆",
+							"es": "Chongqing",
+							"pt": "Chongqing"
+						},
+						{
+							"id": "Sichuan",
+							"en": "Sichuan",
+							"zh": "四川",
+							"es": "Sichuan",
+							"pt": "Sichuan"
+						},
+						{
+							"id": "Guizhou",
+							"en": "Guizhou",
+							"zh": "贵州",
+							"es": "Guizhou",
+							"pt": "Guizhou"
+						},
+						{
+							"id": "Yunnan",
+							"en": "Yunnan",
+							"zh": "云南",
+							"es": "Yunnan",
+							"pt": "Yunnan"
+						},
+						{
+							"id": "Xizang",
+							"en": "Tibet",
+							"zh": "西藏",
+							"es": "Tibet",
+							"pt": "Tibet"
+						}
+					]
+				}
+			]
+		}
+	]
+}
