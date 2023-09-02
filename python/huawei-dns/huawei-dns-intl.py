@@ -30,6 +30,20 @@ class HuaweiCloudDnsApi:
         response = requests.request(method, url, headers=headers, data=data, json=json)
         return response.json()
 
+
+    # check line id exists
+    def check_line_exists(self, children, search_id):
+        if children is None:
+            return False
+
+        for region in children:
+            if "id" in region and region["id"] == search_id:
+                return True
+            if "children" in region and self.check_line_exists(region["children"], search_id):
+                return True
+ 
+        return False
+        
     def get_unique_ips(self, ips=None):
         # ips no empty return ips
         if ips is None:
