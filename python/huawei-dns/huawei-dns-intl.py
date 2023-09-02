@@ -3,16 +3,18 @@ import requests
 import json
 
 
-class HuaweiCloudDnsApi:
+class HuaweiCloudApi:
 
-    def __init__(self, description='China', token=None, domain=None, subdomain=None, record_type='A'):
+    def __init__(self, line_filter=None, token=None, domain=None, subdomain=None, record_type='A'):
+        if line_filter is None:
+            line_filter = ['CN']
         self.dns_api = "https://dns.ap-southeast-1.myhuaweicloud.com"
         self.filtered_records = []
         self.default_records = []
         self.ips = []
+        self.line_filter = line_filter
+        self.record_dict = {line: [] for line in self.line_filter}
 
-        # description mark record line
-        self.description = description
         self.domain = domain
         self.subdomain = subdomain
         self.record_type = record_type
@@ -62,6 +64,7 @@ class HuaweiCloudDnsApi:
         response = requests.post(url, headers=headers, json=data)
         if response.status_code == 201:
             self.token = response.headers.get('X-Subject-Token')
+            print("Token:", self.token)
         else:
             print("Request failed with status code:", response.status_code)
             print("Response:", response.text)
@@ -84,21 +87,12 @@ class HuaweiCloudDnsApi:
             exit(1)
 
         for record in records:
-            if (
-                    record.get('name') == f"{self.subdomain}.{self.domain}." and
-                    record.get('type') == self.record_type and
-                    record.get('line') == self.description
-            ):
-                self.filtered_records.append(record)
+            name = f"{self.subdomain}.{self.domain}."
+            if record.get('name') == name and record.get('type') == self.record_type:
+                line = record.get('line')
+                if line in self.line_filter:
+                    self.record_dict[line].append(record)
 
-            # if (
-            #         record.get('name') == f"{self.subdomain}.{self.domain}." and
-            #         record.get('type') == self.record_type and
-            #         record.get('line') == 'CN'
-            # ):
-            #     self.default_records.append(record)
-
-        print(self.filtered_records)
 
     def build_recordset(self, line, ttl=10):
         return {
@@ -112,14 +106,15 @@ class HuaweiCloudDnsApi:
             'tags': [
                 {
                     'key': 'line',
-                    'value': self.description
+                    'value': line
                 }
             ]
         }
 
+
     def check_record(self):
-        # self.change_record(self.default_records)
-        self.change_record(self.filtered_records, self.description)
+        for line, records in self.record_dict.items():
+            self.change_record(records, line)
         pass
 
     def change_record(self, records, line="CN"):
@@ -137,6 +132,8 @@ class HuaweiCloudDnsApi:
                 "ttl": 1
             }
         try:
+            print(json.dumps(data))
+            print(url)
             respone = requests.request(method, url,
                                        headers={
                                            "Content-Type": "application/json;charset=utf8",
@@ -167,7 +164,7 @@ if __name__ == "__main__":
     IAMPassword = 'IAM user password.'
     token = None
     dns_api = "https://dns.ap-southeast-1.myhuaweicloud.com"
-    client = HuaweiCloudDnsApi('Abroad', token, 'domain.com', "cdn")
+    client = HuaweiCloudApi(['Abroad', 'CN'], token, 'domain.com', "cdn")
     client.get_recordset()
     client.read_ips_file('/codex/ips.txt')
     client.check_record()
