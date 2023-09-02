@@ -3,7 +3,7 @@ import requests
 import json
 
 
-class HuaweiCloudApi:
+class HuaweiCloudDnsApi:
 
     def __init__(self, line_filter=None, token=None, domain=None, subdomain=None, record_type='A'):
         if line_filter is None:
@@ -93,7 +93,6 @@ class HuaweiCloudApi:
                 if line in self.line_filter:
                     self.record_dict[line].append(record)
 
-
     def build_recordset(self, line, ttl=10):
         return {
             "description": line,
@@ -110,7 +109,6 @@ class HuaweiCloudApi:
                 }
             ]
         }
-
 
     def check_record(self):
         for line, records in self.record_dict.items():
@@ -164,7 +162,8 @@ if __name__ == "__main__":
     IAMPassword = 'IAM user password.'
     token = None
     dns_api = "https://dns.ap-southeast-1.myhuaweicloud.com"
-    client = HuaweiCloudApi(['Abroad', 'CN'], token, 'domain.com', "cdn")
+    client = HuaweiCloudDnsApi(['Abroad', 'CN'], token, 'domain.com', "cdn")
     client.get_recordset()
     client.read_ips_file('/codex/ips.txt')
     client.check_record()
+
